@@ -35,7 +35,7 @@ public class App {
                 count++;
             }
         }
-        //if its not a win and the nr of moves has sufficed(big words)
+        //if its not a win and the nr of moves has ended
         if (nMoves == count) {
             System.out.println("Its a draw, Better luck next time! ");
             return 2;
